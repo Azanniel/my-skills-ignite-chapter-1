@@ -5,13 +5,13 @@ import {Home} from './src/pages/Home';
 export default function App() {
   return (
     <>
-      <Home />
-
       <StatusBar
         translucent
         backgroundColor="transparent"
         barStyle="light-content"
       />
+
+      <Home />
     </>
   );
 }
