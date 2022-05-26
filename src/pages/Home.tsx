@@ -25,8 +25,8 @@ export function Home() {
     if (newSkill.trim()) {
       const data = {
         id: String(new Date().getTime()),
-        name: newSkill
-      }
+        name: newSkill,
+      };
 
       setMySkills(oldState => [...oldState, data]);
       setNewSkill('');
@@ -62,7 +62,7 @@ export function Home() {
         onChangeText={setNewSkill}
       />
 
-      <Button title='Add' onPress={handleAddNewSkill} />
+      <Button title="Add" onPress={handleAddNewSkill} />
 
       <Text style={[styles.title, {marginVertical: 40}]}>My Skills</Text>
 
@@ -70,9 +70,9 @@ export function Home() {
         data={mySkills}
         keyExtractor={item => item.id}
         renderItem={({item}) => (
-          <SkillCard 
-            skill={item.name} 
-            onPress={() => handleRemoveSkill(item.id)} 
+          <SkillCard
+            skill={item.name}
+            onPress={() => handleRemoveSkill(item.id)}
           />
         )}
       />
