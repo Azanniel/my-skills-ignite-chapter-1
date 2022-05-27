@@ -43,3 +43,13 @@ npx react-native start
 # Em outro terminal
 npx react-native run-android
 ```
+
+## ☕ Contatos
+
+Você vai me encontrar em qualquer uma das redes sociais abaixo:
+
+<a href = "mailto: leo.azannielttt@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23EA4335?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" margin-right="10px"></a>
+<a href="https://www.linkedin.com/in/leandroazanniel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+
+<p align="center">Feito com 💜 por Leandro Azanniel</p>
