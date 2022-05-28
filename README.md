@@ -27,7 +27,6 @@ Nesta aplicação construímos um sistema que salva as skills que você tem em u
 
 - [x] React Native
 - [x] Typescript
-- [x] React Native
 
 ## 🏃‍♂️ Executando o projeto
 
